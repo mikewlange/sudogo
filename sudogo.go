@@ -16,10 +16,7 @@ The run time is 48-68 ms on LeetCode OJ, which seems to be among the fastest
 python solutions here. Golang kills Python in everyway (except free code), I'll speed this up! 
 
 
-The PossibleVals function may be further simplified/optimized, but it works just
-fine for now. (it would look less lengthy if we are allowed to use numpy array
-for the board lol).
-"""
+use numpy arrays to make the code go awaty :)
 
 def solveSudoku(self, board):
     self.board = board
