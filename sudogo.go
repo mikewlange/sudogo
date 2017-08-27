@@ -3,7 +3,7 @@ It's similar to how human solve Sudoku.
 
 create a hash table (dictionary) val to store possible values in every location.
 Each time, start from the location with fewest possible values, choose one value
-from it and then update the board and possible values at other locations.
+from it and then update the board and possible values at other locations. 
 If this update is valid, keep solving (DFS). If this update is invalid (leaving
 zero possible values at some locations) or this value doesn't lead to the
 solution, undo the updates and then choose the next value.
