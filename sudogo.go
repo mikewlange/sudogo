@@ -1,14 +1,14 @@
-How computers can emulate how humans solve Sudoku in binary code. 
+How computers emulate how humans solve Sudoku in binary code. 
 
 Computer: Create a hash table to store possible values in every location. 
-human: Stop and think!
+Human: Stop and think!
 
 Computer: Each bla, start from the location with fewest possible values, choose one value
 from it and then update the board and possible values at other locations. 
 If this update is valid, keep solving. If this update is invalid (leaving
 zero possible values at some locations) or this value doesn't lead to the
 solution, undo the updates and then choose the next value.
-Human: Can't brute force it. Forcast, solve and repete. 
+Human: Can't brute force it or you'll pop a vein. Forecast, solve and repete. 
 
 Computer: Calculate values at the beginning and start filling the board from the
 location with fewest possible values, the amount of calculation and thus the
