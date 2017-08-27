@@ -15,8 +15,7 @@ runtime can be significantly reduced:
 The run time is 48-68 ms on LeetCode OJ, which seems to be among the fastest
 python solutions here. Golang kills Python in everyway (except free code), I'll speed this up! 
 
-
-use numpy arrays to make the code go awaty :)
+use numpy arrays to make the code go away :)
 
 def solveSudoku(self, board):
     self.board = board
