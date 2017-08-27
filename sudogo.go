@@ -1,3 +1,4 @@
+"""
 How computers emulate how humans solve Sudoku using Golang. 
 
 Computer: Create a hash table to store possible values in every location. 
@@ -20,6 +21,7 @@ python solutions here.
 Human: The run time is 10 min to infinity. 
 
 Computer: use numpy arrays to kill the human. :)
+"""
 
 def solveSudoku(self, board):
     self.board = board
