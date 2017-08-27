@@ -1,7 +1,7 @@
-How computers emulate how humans solve Sudoku in binary code. 
+How computers emulate how humans solve Sudoku using Golang. 
 
 Computer: Create a hash table to store possible values in every location. 
-Human: Stop and think!
+Human: Stop and think for a fucking second! Smoke some hash. 
 
 Computer: Each bla, start from the location with fewest possible values, choose one value
 from it and then update the board and possible values at other locations. 
