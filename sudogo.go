@@ -1,5 +1,5 @@
 """
-THIS IS INEFFICIENT! ONLY AN EXAMPLE OF THW HUMAN THOUGHT PROCESS. 
+THIS IS INEFFICIENT! Strictly an example of the human thought process. 
 
 How computers emulate how humans solve Sudoku using Golang. 
 
