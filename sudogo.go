@@ -13,7 +13,7 @@ runtime can be significantly reduced:
 
 
 The run time is 48-68 ms on LeetCode OJ, which seems to be among the fastest
-python solutions here. Go kills Python in everyway (except free code), I'll speed this up! 
+python solutions here. Golang kills Python in everyway (except free code), I'll speed this up! 
 
 
 The PossibleVals function may be further simplified/optimized, but it works just
