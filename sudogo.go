@@ -1,4 +1,6 @@
 """
+THIS IS INEFFICIENT! ONLY AN EXAMPLE OF THW HUMAN THOUGHT PROCESS. 
+
 How computers emulate how humans solve Sudoku using Golang. 
 
 Computer: Create a hash table to store possible values in every location. 
