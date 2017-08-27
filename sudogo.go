@@ -1,5 +1,4 @@
-"""
-It's similar to how humans solve Sudoku.
+How humans solve Sudoku.
 
 create a hash table to store possible values in every location.
 Each time, start from the location with fewest possible values, choose one value
@@ -7,15 +6,17 @@ from it and then update the board and possible values at other locations.
 If this update is valid, keep solving (DFS). If this update is invalid (leaving
 zero possible values at some locations) or this value doesn't lead to the
 solution, undo the updates and then choose the next value.
-Since we calculated val at the beginning and start filling the board from the
-location with fewest possible values, the amount of calculation and thus the
-runtime can be significantly reduced:
 
+Calculate values at the beginning and start filling the board from the
+location with fewest possible values, the amount of calculation and thus the
+runtime can be significantly reduced. 
 
 The run time is 48-68 ms on LeetCode OJ, which seems to be among the fastest
-python solutions here. Golang kills Python in everyway (except free code), I'll speed this up! 
+python solutions here. 
 
-use numpy arrays to make the code go away :)
+I'll speed this up! Golang kills Python in every way (except free code). 
+
+But, use numpy arrays to make the code go away :)
 
 def solveSudoku(self, board):
     self.board = board
