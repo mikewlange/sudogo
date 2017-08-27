@@ -1,22 +1,25 @@
-How humans solve Sudoku.
+How computers can emulate how humans solve Sudoku in binary code. 
 
-create a hash table to store possible values in every location.
-Each time, start from the location with fewest possible values, choose one value
+Computer: Create a hash table to store possible values in every location. 
+human: Stop and think!
+
+Computer: Each bla, start from the location with fewest possible values, choose one value
 from it and then update the board and possible values at other locations. 
-If this update is valid, keep solving (DFS). If this update is invalid (leaving
+If this update is valid, keep solving. If this update is invalid (leaving
 zero possible values at some locations) or this value doesn't lead to the
 solution, undo the updates and then choose the next value.
+Human: Can't brute force it. Forcast, solve and repete. 
 
-Calculate values at the beginning and start filling the board from the
+Computer: Calculate values at the beginning and start filling the board from the
 location with fewest possible values, the amount of calculation and thus the
 runtime can be significantly reduced. 
+Human: Same
 
-The run time is 48-68 ms on LeetCode OJ, which seems to be among the fastest
+Computer: The run time is 48-68 ms on LeetCode OJ, which seems to be among the fastest
 python solutions here. 
+Human: The run time is 10 min to infinity. 
 
-I'll speed this up! Golang kills Python in every way (except free code). 
-
-But, use numpy arrays to make the code go away :)
+Computer: use numpy arrays to kill the human. :)
 
 def solveSudoku(self, board):
     self.board = board
